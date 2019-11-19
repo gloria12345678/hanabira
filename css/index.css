@@ -3,7 +3,7 @@
 
 .girlPhoto{
     background-color: #6e1c1c;
-    height: 630px;
+    height: 720px;
 }
 .swiper-container{
     /* width: 100%; */
@@ -52,6 +52,10 @@ object-fit: cover;
     background-color: #310203;
 }
 .newsTitle{
+    height: 10%;
+    background-image: url(../img/news.png);
+}
+.girlTitle{
     height: 10%;
     background-image: url(../img/news.png);
 }

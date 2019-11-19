@@ -87,3 +87,26 @@ margin-top: 5px;
     height: 174px;
     overflow-y: scroll;
   }
+  /* @media screen and (min-width:900px) {
+    .staPhotoffBoxSmall ul li{
+        margin: 3px;
+        width: 45px;
+        height: 60px;
+        float: left;
+    }
+    .staPhotoffBox{
+        width: 35%;
+        margin-left: 111px;
+    }
+    .txt{
+        width: 35%;
+        margin-right:90px ;
+    }
+   
+    .stafftitle{
+        background-size: unset;
+        height: 130px;
+        background-position: center;
+ 
+    }
+ } */
