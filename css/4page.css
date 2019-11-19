@@ -1,5 +1,8 @@
 /*10/8*/
 /*toyo*/
+.cantion{
+  height: 1800px;
+}
 .system{
     background-image: url(../img/system.png);
     background-color: #000000ba;
