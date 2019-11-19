@@ -1,0 +1,158 @@
+/*10/8*/
+/*toyo*/
+*{
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    list-style-type: none;
+}
+.cantion{
+    width: 900px;
+    height: 1900px;
+    margin: 0px auto;
+}
+h1{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #ffcf46;
+}
+.body{
+    background-color:#000000;/*改*/
+    background-image:url(../img/body.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: auto;
+}
+.nav{
+    width: 29%;
+    height: 44px;
+    background-color: #310203;
+    border: 1px #ffffff solid;
+    float: left;
+}
+
+.telephone{
+    width: 81%;
+    height: 86%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 7px;
+    border-right: 3px #fbd6bc solid;
+}
+.navimg{
+    height: 83%;
+    width: 12%;
+    margin: 8px;
+    background-image: url(../img/list.png);
+    float: right;
+}
+.navLong{
+    height: 1761px;
+    width: 100%;
+    background-color: #2d0b0b;
+    border: 2px white solid;
+}
+
+.navLong1{
+    width: 92%;
+    height: 37px;
+    border: 3px white solid;
+    border-radius: 10px;
+    padding-top: 11px;
+    font-size: 19px;
+    margin: 6px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #310203;
+}
+.navLongLogo {
+    margin-top: 5px;
+    height: 104px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(../img/logo.png);
+}
+.navLong2{
+    border-top: 3px salmon solid;
+    position: absolute;
+    z-index: 10;
+    bottom: 0px;
+    height: 55px;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 15px;
+    vertical-align: middle;
+}
+.centent{
+    width: 70%;
+    float: right;
+}
+.top{
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.logo{
+    width: 306px;
+    height: 103px;
+    background-image: url(../img/logo.png);
+}
+.tel{
+    width: 261px;
+    height: 99px;
+    background-image: url(../img/tel.png);
+}
+.navLage{
+    height:75px;
+    display: none;
+}
+.navButton{
+    height:50px;
+    width: 16.65%;
+    background-color: chocolate;
+    float: left;
+}
+.focus{
+    background-image:url(../img/fucus.png);
+}
+.footing{
+    display: none;
+    position:fixed;
+    z-index: 10;
+    bottom:0px;
+    height: 50px;
+    background-color: violet;
+}
+.end{
+    display: none;
+    height: 135px;/*需要调试*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000ba;
+}
+.endimg{
+    height: 135px;/*需要调试*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000ba;
+    background-image: url(../img/end.png);
+}
+.Titles{
+    height: 55px;
+    /* background-image: url(../img/titleback.png); */
+    background-repeat: repeat-x;
+    background-size: unset;
+}
