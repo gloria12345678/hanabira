@@ -9,29 +9,30 @@
 }
 .cantion{
     width: 900px;
-    /* height: 1800px; */
+    height: 2000px;
     margin: 0px auto;
+    background-color: #ffffff85;
+    border: 1px #ff9999 solid;
 }
 h1{
     display: none;
 }
 a{
     text-decoration: none;
-    color: #ffcf46;
+    color: #580025;
 }
 .body{
     background-color:#000000;/*改*/
     background-image:url(../img/body.png);
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-position: top;
     background-size: auto;
 }
 .nav{
-    width: 29%;
-    height: 44px;
-    background-color: #310203;
-    border: 1px #ffffff solid;
+    width: 27%;
     float: left;
+    margin-left: 2%;
+    padding: 4px;
 }
 
 .telephone{
@@ -42,7 +43,6 @@ a{
     text-align: center;
     vertical-align: middle;
     padding-top: 7px;
-    border-right: 3px #fbd6bc solid;
 }
 .navimg{
     height: 83%;
@@ -52,59 +52,60 @@ a{
     float: right;
 }
 .navLong{
-    height: 1761px;
+    /* height: 1983px; */
     width: 100%;
-    background-color: #2d0b0b;
-    border: 2px white solid;
 }
 
 .navLong1{
-    width: 92%;
-    height: 37px;
-    border: 3px white solid;
-    border-radius: 10px;
-    padding-top: 11px;
-    font-size: 19px;
-    margin: 6px;
-    text-align: center;
-    vertical-align: middle;
-    background-color: #310203;
+    width: 100%;
+    height: 65px;
+}
+.navLong1 img{
+    object-position: center;
+    width: 100%;
 }
 .navLongLogo {
     margin-top: 5px;
-    height: 140px;
+    height: 255px;
     text-align: center;
     vertical-align: middle;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/logo1.png);
 }
 .navLong2{
     border: 3px salmon solid;
-    height: 200px;
+    border-radius: 6px;
+    height: 170px;
     margin: 10px;
     background-color: #ffffff;
 }
+.navLong2 img{
+    object-position: center;
+    width: 100%;
+}
 .centent{
-    width: 70%;
+    width: 68%;
     float: right;
+    /* background-color: #fff9fc; */
 }
 .top{
-    height: 157px;
+    height: 187px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
    
 
 }
 
 .logo{
-    width: 306px;
-    height: 103px;
+    width: 208px;
+    height: 234px;
     background-image: url(../img/logo.png);
 }
 .tel{
     width: 261px;
-    height: 99px;
+    height: 127px;
     background-image: url(../img/tel.png);
 }
 .navLage{
@@ -128,17 +129,16 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #000000ba;
-    background-image: url(../img/end.png);
 }
 .endimg a{
-    width: 105px;
+    width: 110px;
     height: 50px;
-    background-color: #ffffff;
+   color: salmon;
     float: left;
+    font-size: 20px;
 }
 .Titles{
-    height: 55px;
+    height: 75px;
     /* background-image: url(../img/titleback.png); */
     background-repeat: repeat-x;
     background-size: unset;

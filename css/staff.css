@@ -31,14 +31,14 @@ border: 0px;
     height: 212px;
     z-index: 0;
     margin: 4px;
-    border: 1px #c39a26 solid;
+    border: 1px #ff7e62 solid;
   }
   .staffBox {
     width: 96%;
     height: 335px;
-    background-color: #280a0a;
+    background-color: #f9e2e2;
     padding: 6px;
-    border: 1px #b18821 solid;
+    border: 1px #ff7e62 solid;
     /* border-radius: 10px;*/
   }
   .swiper-slide {
@@ -59,7 +59,7 @@ border: 0px;
   }
   .staPhotoffBoxSmall ul li{
     margin: 3px;
-    border: 2px #c39a26 solid;
+    border: 2px #ff7e62 solid;
     width: 45px;
     height: 58px;
     float: left;
@@ -79,34 +79,11 @@ border: 0px;
       float: right;
   }
   .txt h2,h3,h4{
-    color:#ffffff;;
-margin-top: 5px;
-    border: 2px #c39a26 solid;
+    color:#980a0a;
+    margin-top: 5px;
+    border: 2px #ff7e62 solid;
   }
 .txt h4{
     height: 174px;
     overflow-y: scroll;
   }
-  /* @media screen and (min-width:900px) {
-    .staPhotoffBoxSmall ul li{
-        margin: 3px;
-        width: 45px;
-        height: 60px;
-        float: left;
-    }
-    .staPhotoffBox{
-        width: 35%;
-        margin-left: 111px;
-    }
-    .txt{
-        width: 35%;
-        margin-right:90px ;
-    }
-   
-    .stafftitle{
-        background-size: unset;
-        height: 130px;
-        background-position: center;
- 
-    }
- } */

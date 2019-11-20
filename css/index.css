@@ -2,7 +2,6 @@
 /*toyo*/
 
 .girlPhoto{
-    background-color: #6e1c1c;
     height: 720px;
 }
 .swiper-container{
@@ -16,12 +15,12 @@
 }
 .girlPhotoBox{
     padding: 4px;
-    border: 5px #c19924 solid;
+    border: 3px #ff8580 solid;;
     border-radius: 5px 5px 0 0;
 
 }
 #swiper2{
-    width: 210px;
+    width: 200px;
     float: left;
     height: 320px;
 }
@@ -33,37 +32,43 @@ object-fit: cover;
 .girlPhotoName{
     width: 95%;
     height: 12%;
-    background-color: #ffffff;
-    color: #ff7f24;
+    background-color: #fd6969;
+    color: #fff8fc;
     font-size: 15px;
     text-align: center;
     vertical-align: middle;
-    border: 5px #c19924 solid;
+    border: 3px #ff8580 solid;;
 }
 .girlPhotoLage{
     display: none;
 }
 .event{
-    height: 180px;
+    margin-top: 20px;
     background-image: url(../img/event.png);
 }
 .news{
-    height: 350px;
-    background-color: #310203;
+    height: 373px;
 }
 .newsTitle{
-    height: 10%;
+    height: 18%;
+    background-size: auto;
     background-image: url(../img/news.png);
+    background-position: center;
 }
 .girlTitle{
     height: 10%;
-    background-image: url(../img/news.png);
+    background-size: auto;
+    background-image: url(../img/luki.png);
+    background-position: center;
 }
 .newsText{
-    height: 88%;
+    height: 81%;
     width: 99%;
+    opacity: 0.6;
     overflow-y: scroll;
     border: 1px #a73535 solid;
+    background-image:url(../img/body.png);
+    background-repeat: repeat;
 }
 .text{
     height: 300px;

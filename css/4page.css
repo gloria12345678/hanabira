@@ -1,16 +1,16 @@
 /*10/8*/
 /*toyo*/
 .cantion{
-  height: 1800px;
+  height: 1529px;
 }
 .system{
     background-image: url(../img/system.png);
-    background-color: #000000ba;
+    height: 984px;
   }
   .room{
     height: 475px;
     display: flex;
-    background-color: #861012;
+    background-color: #f7b1b1;
     justify-content: center;
   }
   .swiper-container {
@@ -24,7 +24,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: seagreen;
+  }
+  .swiper-slide img{
+    width: 100%;
   }
   .access div{
     height: 57px;
@@ -32,19 +34,19 @@
     text-align: center;
     vertical-align: middle;
     border: 2px white solid;
-    color: #dcb834;
-    background-color: #2f0d0d;
+    color: #800000;
+    background-color: #ffa5a5;
   }
   .recruit{
     width: 98%;
     height: 800px;
-    border: 4px #ce9d2f solid;
+    border: 4px #e41b1b solid;
   }
   p{
     height: 27px;
     font-size: 18px;
-    background-color: #480303;
-    color: bisque;
+    background-color: #ff9393;
+    color: white;
   }
   .recruit div{
     width: 96%;
@@ -53,14 +55,17 @@
     padding: 5px;
   }
   .roomtitle{
-    height: 65px;
+    height: 71px;
     background-image: url(../img/roomtitle.png); 
+    margin-top: 28px;
 }
 .accesstitle{
-  height: 55px;
+  height: 71px;
   background-image: url(../img/accesstitle1.png); 
+  margin-top: 28px;
 }
 .recruittitle{
-  height: 55px;
+  height: 71px;
   background-image: url(../img/recruittitle.png); 
+  margin-top: 28px;
 }
