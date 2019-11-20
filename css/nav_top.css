@@ -22,7 +22,6 @@ a{
     color: #580025;
 }
 .body{
-    background-color:#000000;/*改*/
     background-image:url(../img/body.png);
     background-repeat: repeat;
     background-position: top;
